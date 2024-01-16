@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./custom.css);
+
+.my-color {
+	color: red;
+}
+
+.my-font {
+	font-family: 'Work Sans';
+}
+
+.my-root-class {
+	background: #023b7e;
+	box-sizing: border-box;
+}
+
+.my-root-class body {
+	/* background: #023b7e; */
+	padding: 0 !important;
+}
+
+.login-template {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(./assets/bg-image.jpg) no-repeat center center fixed
+}
+
+
+.login-template__left-side {
+	display: flex;
+	flex: 1;
+	height: 100vh;
+	background: url(./assets/bg-image.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.login-template__right-side{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	height: 100vh;
+	background: #e7e9ee;
+}
+
